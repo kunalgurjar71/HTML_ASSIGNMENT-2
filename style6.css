@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e1ddf1;
+}
+
+/* Header */
+header {
+  background-color: #087d79;
+  color: rgb(8, 5, 5);
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 30px;
+  text-align: center;
+  background-color: #f4d6b2;
+  margin: 15px auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #080808;
+  border-bottom: 2px solid #010710;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* About Me */
+#about img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+/* Skills Table */
+table {
+  margin: 40px auto;
+  width: 70%;
+}
+
+table ,th ,td {
+  border:4px solid #070606;
+  padding: 10px;
+}
+
+th {
+  background-color: #0d4aae;
+  color: rgb(200, 201, 230);
+}
+
+/* Projects */
+.project {
+  background-color: #f9f9f9;
+  margin: 15px auto;
+  padding: 15px;
+  width: 70%;
+  border-radius: 30px;
+}
+
+/* Contact Form */
+form {
+  display: inline-block;
+  text-align: left;
+  width: 70%;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #0b4db7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #083c8c;
+}
+
+/* Footer */
+footer {
+  background-color: #0b4db7;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+  background-color: #7da8ea;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  background-color: #6e9ce6;
+}
+
+.back-to-top-inline {
+  margin-top: 8px;
+  text-align: right;
+}
+
+.back-to-top-inline a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #0757cf;
+  padding: 6px 12px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.back-to-top-inline a:hover {
+  background-color: #6e9ce6;
+}
+
